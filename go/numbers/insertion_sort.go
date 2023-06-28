@@ -2,13 +2,13 @@ package numbers
 
 import (
 	"github.com/Neels-v-Wyk/intro-to-algorithms-4th-ed-algos/go/generators"
-	"fmt"
 )
 
 func Sort() []int {
-	random_sequence := generators.GenerateNumbers(10, true)
-	fmt.Println(random_sequence)
+	// TODO:
+	//     don't generate a random number sequence each time, just generate it once in main.go
+	random_sequence := generators.GenerateNumbers(3, true)
 
-	return []int{1, 2, 3, 4}
+	return random_sequence
 }
 
